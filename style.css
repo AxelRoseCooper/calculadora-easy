@@ -1,4 +1,7 @@
 
+.logo-ninja{
+    max-height: 30px;
+}
 body {
     margin: 0;
     background-color: #23338b;
