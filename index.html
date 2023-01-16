@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+<div class="container-fluid" style="margin-top: 100px; ">
+    
+    <div class="container-sm">
+        <div class="container-sm ">
+            <div class="header  text-center">
+                <h1>Calculadora Axel</h1>   
+            </div>
+        </div>
+        <!--<div class="container-lg" style="display: flex; justify-content: center; align-items: center;">
+            <h2>Calculadora</h2>
+        </div>-->
+        <div class=" row ">
+                    <button id="x" class="btn btn-primary mx-4 btn-sm col-sm" onclick="numero1()"> Ingresa numero 1</button>
+                    <button id="y" class="btn btn-primary mx-4 btn-sm col-sm" onclick="numero2()">Ingresa numero 2</button>
+                </div>
+        <br>
+
+        <h2 class="Resultado" id="Resultado">RESULTADO</h2>
+
+        <br>
+        <div class="container-fluid ">
+            <button type="button" class="btn btn-sm col-sm" onclick="suma()">SUMA</button>
+            <button type="button" class="btn  btn-sm col-sm" onclick="resta()">RESTA</button>
+            <button type="button" class="btn  btn-sm col-sm" onclick="division()">DIVISION</button>
+            <button type="button" class="btn  btn-sm col-sm" onclick="multiplicacion()">MULTIPLICACION</button>
+            
+        </div>
+    </div>
+    
+</div>
+      
+
+      
+    <!-- AQUI TENGO EL SCRIPT Y LO DE BOOTSTRAP
+    -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="calculadora.js"></script>
+</body>
+</html>

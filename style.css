@@ -1,0 +1,44 @@
+
+body {
+    margin: 0;
+    background-color: #23338b;
+} 
+
+.min-flex{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    color: rgb(250, 250, 250);
+}
+.container-fluid{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    margin: 15px;
+}
+.header{
+    background-color: black;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 15px;
+}
+.Resultado{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: black;
+    
+}
+.btn-2{
+    background-color: rgb(3, 4, 68);
+    color: black; 
+    border-color: black;
+    margin-right: 4px;
+
+}
